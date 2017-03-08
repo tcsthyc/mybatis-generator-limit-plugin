@@ -4,12 +4,12 @@ A MyBatis Generator plugin for MySQL pagination use limit.
 http://xxgblog.com/2016/05/06/mybatis-generator-mysql-pagination/
 ## Usage
 
-Add the plugin `<plugin type="com.xxg.mybatis.plugins.MySQLLimitPlugin"></plugin>` into MyBatis Generator configuration file.
+Add the plugin `<plugin type="MySQLLimitPlugin"></plugin>` into MyBatis Generator configuration file.
 
 ```
 <generatorConfiguration>
     <context id="mysqlgenerator" targetRuntime="MyBatis3">
-    	<plugin type="com.xxg.mybatis.plugins.MySQLLimitPlugin"></plugin>
+    	<plugin type="MySQLLimitPlugin"></plugin>
     	...
     </context>
 </generatorConfiguration>
